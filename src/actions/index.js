@@ -19,6 +19,7 @@ export function fetchSheet(spreadsheetId, sheetName) {
     SHEETS_API.fetchData(request)
       .then(response => response.data)
       .then((sheet) => {
+        console.log(sheet, "sheet in actions");
         dispatch({
           type: SHEET_RETRIEVED,
           sheetData: sheet,

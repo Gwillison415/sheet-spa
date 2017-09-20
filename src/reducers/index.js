@@ -2,6 +2,7 @@ import { combineReducers } from 'redux';
 import { SHEET_RETRIEVED } from '../actions';
 /* eslint-disable max-len */
 function sheet(state = { range: '', majorDimension: '', header: { headerCellIds: [], headerCellsById: {} }, rowIds: [], rowsById: {} }, action) {
+  console.log(action.sheetData);
   switch (action.type) {
     case SHEET_RETRIEVED:
       return {
