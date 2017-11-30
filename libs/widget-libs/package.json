@@ -1,6 +1,6 @@
 {
-  "name": "@databraid/sheets-widget",
-  "version": "1.0.11",
+  "name": "@gdatabraid/sheets-widget2",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "files": [
@@ -27,16 +27,17 @@
     "redux-testkit": "1.0.6",
     "nock": "9.0.14",
     "babel-cli": "6.24.1",
+    "render-if": "0.1.1",
     "babel-eslint": "6.1.2"
   },
   "dependencies": {
-    "react": "15.6.1",
-    "react-dom": "15.6.1",
-    "react-redux": "5.0.5",
-    "redux": "3.7.2",
-    "redux-thunk": "2.2.0",
-    "prop-types": "15.5.10",
-    "redux-form": "7.0.3",
-    "redux-logger": "3.0.6"
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.2",
+    "redux-form": "^7.0.3",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
   }
 }
